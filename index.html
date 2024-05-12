@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Meteorológus</title>
+    <script src="bundle.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>Meteorológus</h2>
+    </div>
+
+    <div class="search-bar">
+      <div class="form-container">
+        <form action="" id="weather-form">
+          <div class="form-item">
+            <input type="text" placeholder="Város" id="city-input" required />
+          </div>
+          <div class="form-item">
+            <input type="date" placeholder="Város" id="date-input" required />
+          </div>
+
+          <div class="spacer"></div>
+
+          <div>
+            <button type="reset">X</button>
+            <button id="submit-btn" type="submit">Keresés</button>
+          </div>
+        </form>
+      </div></div
+    >
+    <div class="content">
+      <div id="error-message" style="display: none"
+        >Nem sikerült letölteni az időjárás adatokat</div
+      >
+      <div id="weather-container"></div>
+    </div>
+  </body>
+</html>
